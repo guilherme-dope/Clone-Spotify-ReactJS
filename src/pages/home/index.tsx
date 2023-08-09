@@ -1,10 +1,14 @@
-import {Container} from "./style.ts";
+import {Container} from "./style.ts";5
+import SideMenu from "../../components/SideMenu";
 
 function Home() {
 
     return (
         <Container>
-            <h1>Home Clone spotify</h1>
+
+            <SideMenu />
+
+
         </Container>
     )
 }
