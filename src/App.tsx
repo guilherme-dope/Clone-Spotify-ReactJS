@@ -1,8 +1,9 @@
+import Home from "./pages/home"
     function App() {
 
   return (
     <>
-      <h1>clone spotify</h1>
+      <Home />
     </>
   )
 }

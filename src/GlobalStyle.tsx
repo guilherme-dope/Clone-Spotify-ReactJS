@@ -10,8 +10,14 @@ export const GlobalStyle = createGlobalStyle`
       font-family: 'Inter', sans-serif;
     }
     
+    body {
+      background: var(--black);
+      color: var(--white);
+      padding: 8px;
+    }
+    
     :root{
-      --gray: #101010;
+      --gray: #121212;
       --gray-300: #a7a7a7;
       --black: #000000;
       --white: #ffffff;
