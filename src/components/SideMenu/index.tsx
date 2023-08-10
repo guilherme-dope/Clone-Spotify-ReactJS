@@ -1,4 +1,5 @@
-import { RiHome5Line, RiSearchLine } from "react-icons/ri";
+import { RiSearchLine } from "react-icons/ri";
+import { CgHome } from "react-icons/cg";
 import { Container } from "./style.ts";
 
 const SideMenu = () => {
@@ -6,7 +7,7 @@ const SideMenu = () => {
         <Container>
             <ul>
                 <li>
-                    <a href=""> <RiHome5Line /> inicio </a>
+                    <a href=""> <CgHome /> inicio </a>
                 </li>
 
                 <li>
