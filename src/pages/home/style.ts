@@ -16,7 +16,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
 
-    & header {
+    & > header {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -67,6 +67,40 @@ export const Container = styled.section`
         }
       }
     }
+
+    & .focus {
+      flex: 1;
+      background: linear-gradient(0deg, rgba(25, 25, 25, 1) 65%, rgba(47, 47, 47, 1) 100%);
+      display: flex;
+      flex-direction: column;
+      padding: 10px var(--pad);
+      gap: 30px;
+
+
+      & header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        & h2 {
+          font-size: 23px;
+        }
+
+        & a {
+        }
+
+        color: var(--white)
+      }
+
+      & section {
+        display: flex;
+        justify-content: space-between;
+        //gap: 10px;
+      }
+
+    }
+
   }
 
 `;
