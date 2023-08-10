@@ -18,6 +18,9 @@ export const GlobalStyle = createGlobalStyle`
     
     :root{
       
+      --br: 8px;
+      --pad: 20px;
+      
       --gray: #121212;
       --gray-300: #a7a7a7;
       --black: #000000;

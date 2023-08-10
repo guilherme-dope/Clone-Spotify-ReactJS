@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
     
   background-color: var(--gray);
-  border-radius: 8px;
+  border-radius: var(--br);
   height: 112px;
-  padding: 20px;
+  padding: var(--pad);
 
   
   & ul {
