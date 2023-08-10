@@ -16,11 +16,30 @@ export const GlobalStyle = createGlobalStyle`
       padding: 8px;
     }
     
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--gray-300);
+
+      &:hover {
+        color: var(--white)
+      }
+      
+    }
+
+    svg {
+      height: 24px;
+      width: 24px;
+    }
+    
     :root{
       
       --br: 8px;
       --pad: 20px;
+      --gap: 10px;
       
+      --gray-500: #1a1a1a;
       --gray: #121212;
       --gray-300: #a7a7a7;
       --black: #000000;
