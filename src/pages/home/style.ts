@@ -55,8 +55,17 @@ export const Container = styled.section`
           margin: 0 15px;
         }
 
-      }
+        & .btn {
+          margin-left: 20px;
 
+          & button {
+            height: 48px;
+            border-radius: 40px;
+            padding: 0 30px;
+
+          }
+        }
+      }
     }
   }
 
