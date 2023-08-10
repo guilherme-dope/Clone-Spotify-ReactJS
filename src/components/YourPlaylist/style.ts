@@ -17,22 +17,7 @@ export const Container = styled.div`
     font-size: 14px;
   }
 
-  & button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  & .btn {
     margin-top: 15px;
-    font-size: 15px;
-    font-weight: 700;
-    background: var(--white);
-    height: 32px;
-    border: none;
-    border-radius: 15px;
-    padding: 0 var(--pad);
-
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.05);
-    }
   }
 `;

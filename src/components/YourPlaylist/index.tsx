@@ -1,28 +1,24 @@
-import { Container } from "./style.ts";
+import {Container} from "./style.ts";
+import Button from "../Button";
 
 interface YourPlaylistProps {
-  title: string;
-  description: string;
-  button: string;
-  onClick: () => void;
+    title: string;
+    description: string;
+    button: string;
+    onClick: () => void;
 }
 
-const YourPlaylist = ({
-  title,
-  description,
-  button,
-  onClick,
-}: YourPlaylistProps) => {
-  return (
-    <Container>
-      <h4>{title}</h4>
-      <p>{description}</p>
+const YourPlaylist = ({title, description, button, onClick}: YourPlaylistProps) => {
+    return (
+        <Container>
+            <h4>{title}</h4>
+            <p>{description}</p>
 
-      <div>
-        <button onClick={onClick}>{button}</button>
-      </div>
-    </Container>
-  );
+            <div className="btn">
+                <Button onClick={onClick} label={button}></Button>
+            </div>
+        </Container>
+    );
 };
 
 export default YourPlaylist;

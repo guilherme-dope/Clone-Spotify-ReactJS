@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import {createGlobalStyle} from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -39,6 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     --pad: 20px;
     --gap: 10px;
 
+    --gray-900: #080808;
     --gray-500: #1a1a1a;
     --gray-400: #242424;
     --gray-300: #a7a7a7;
