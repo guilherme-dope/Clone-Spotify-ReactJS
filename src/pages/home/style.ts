@@ -70,7 +70,7 @@ export const Container = styled.section`
 
     & .focus {
       flex: 1;
-      background: linear-gradient(0deg, rgba(25, 25, 25, 1) 65%, rgba(47, 47, 47, 1) 100%);
+      background: linear-gradient(180deg, rgba(31, 31, 31, 1) 0%, rgba(41, 41, 41, 1) 0%, rgba(18, 18, 18, 1) 26%);
       display: flex;
       flex-direction: column;
       padding: 10px var(--pad);

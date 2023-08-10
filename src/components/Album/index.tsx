@@ -10,11 +10,13 @@ interface AlbumProps {
 const Album = ({image, title, subtitle}: AlbumProps) => {
     return (
         <Container>
-            <a href=""> <BsFillPlayFill/> </a>
+            <a href="">
+                {" "}
+                <BsFillPlayFill/>{" "}
+            </a>
             <img src={image} alt=""/>
             <h3>{title}</h3>
             <p>{subtitle}</p>
-
         </Container>
     );
 };

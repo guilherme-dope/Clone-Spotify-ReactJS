@@ -23,7 +23,8 @@ export const GlobalStyle = createGlobalStyle`
     color: var(--gray-300);
 
     &:hover {
-      color: var(--white)
+      color: var(--white);
+      transition: 0.3s ease;
     }
 
   }
@@ -39,7 +40,9 @@ export const GlobalStyle = createGlobalStyle`
     --pad: 20px;
     --gap: 10px;
 
+
     --gray-900: #080808;
+    --gray-800: #282828;
     --gray-700: #181818;
     --gray-500: #1a1a1a;
     --gray-400: #242424;

@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background: var(--gray-900);
-  background: linear-gradient(0deg, rgba(47, 47, 47, 1) 0%, rgba(25, 25, 25, 1) 100%);
+  background: var(--gray-700);
   padding: var(--pad);
   border-radius: var(--br);
   width: 195px;
@@ -12,11 +11,16 @@ export const Container = styled.div`
   position: relative;
 
   &:hover {
-    background: var(--gray-400);
+    background: var(--gray-800);
     cursor: pointer;
+    transition: 0.6s ease;
+
 
     & a {
-      display: flex;
+      transition: 0.6s ease;
+      top: 122px;
+      background: rgba(31, 223, 100, 1);
+      color: rgba(0, 0, 0, 1);
     }
   }
 
@@ -37,17 +41,17 @@ export const Container = styled.div`
   }
 
   & a {
-    display: none;
+    display: flex;
     position: absolute;
     right: 25px;
-    top: 122px;
+    top: 133px;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    color: var(--black);
+    color: rgba(0, 0, 0, 0);
     width: 48px;
     height: 48px;
-    background: #1fdf64;
+    background: rgba(31, 223, 100, 0);
   }
 
 
