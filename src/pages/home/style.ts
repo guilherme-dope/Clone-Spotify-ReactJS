@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.section`
   display: grid;
@@ -10,8 +10,5 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     gap: var(--gap);
-    
   }
-
-
-`
+`;

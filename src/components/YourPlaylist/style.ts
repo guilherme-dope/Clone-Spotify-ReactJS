@@ -1,7 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
-  
   display: flex;
   flex-direction: column;
   gap: var(--gap);
@@ -9,16 +8,16 @@ export const Container = styled.div`
   border-radius: var(--br);
   padding: var(--pad);
   color: var(--white);
-  
+
   & h4 {
     font-size: 16px;
   }
-  
+
   & p {
     font-size: 14px;
   }
-  
-  & button{
+
+  & button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -30,10 +29,10 @@ export const Container = styled.div`
     border: none;
     border-radius: 15px;
     padding: 0 var(--pad);
-    
-      &:hover{
-        cursor: pointer;
-        transform: scale(1.05);
-      }
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
   }
-`
+`;
