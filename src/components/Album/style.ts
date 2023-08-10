@@ -15,7 +15,6 @@ export const Container = styled.div`
     cursor: pointer;
     transition: 0.6s ease;
 
-
     & a {
       transition: 0.6s ease;
       top: 122px;
@@ -23,7 +22,6 @@ export const Container = styled.div`
       color: rgba(0, 0, 0, 1);
     }
   }
-
 
   & img {
     width: 100%;
@@ -53,6 +51,4 @@ export const Container = styled.div`
     height: 48px;
     background: rgba(31, 223, 100, 0);
   }
-
-
-`
+`;

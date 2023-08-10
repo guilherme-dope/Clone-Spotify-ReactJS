@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +15,5 @@ export const Container = styled.button`
   &:hover {
     cursor: pointer;
     transform: scale(1.05);
-
   }
-
-`
+`;

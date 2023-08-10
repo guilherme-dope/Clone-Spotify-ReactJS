@@ -8,7 +8,12 @@ interface YourPlaylistProps {
     onClick: () => void;
 }
 
-const YourPlaylist = ({title, description, button, onClick}: YourPlaylistProps) => {
+const YourPlaylist = ({
+                          title,
+                          description,
+                          button,
+                          onClick,
+                      }: YourPlaylistProps) => {
     return (
         <Container>
             <h4>{title}</h4>

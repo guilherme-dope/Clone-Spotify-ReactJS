@@ -42,7 +42,6 @@ export const Container = styled.section`
             height: 18px;
           }
         }
-
       }
 
       & .menu {
@@ -51,7 +50,6 @@ export const Container = styled.section`
         gap: var(--gap);
 
         & .space {
-
           margin: 0 15px;
         }
 
@@ -62,7 +60,6 @@ export const Container = styled.section`
             height: 48px;
             border-radius: 40px;
             padding: 0 30px;
-
           }
         }
       }
@@ -70,12 +67,14 @@ export const Container = styled.section`
 
     & .focus {
       flex: 1;
-      background: linear-gradient(180deg, rgba(31, 31, 31, 1) 0%, rgba(41, 41, 41, 1) 0%, rgba(18, 18, 18, 1) 26%);
+      background: linear-gradient(180deg,
+      rgba(31, 31, 31, 1) 0%,
+      rgba(41, 41, 41, 1) 0%,
+      rgba(18, 18, 18, 1) 26%);
       display: flex;
       flex-direction: column;
       padding: 10px var(--pad);
       gap: 30px;
-
 
       & header {
         display: flex;
@@ -90,7 +89,7 @@ export const Container = styled.section`
         & a {
         }
 
-        color: var(--white)
+        color: var(--white);
       }
 
       & section {
@@ -98,9 +97,6 @@ export const Container = styled.section`
         justify-content: space-between;
         //gap: 10px;
       }
-
     }
-
   }
-
 `;
