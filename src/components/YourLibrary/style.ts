@@ -36,7 +36,14 @@ export const Container = styled.div`
         font-weight: 1000;
       }
     }
-    
   }
-  
+
+  & section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    padding: var(--pad) 0;
+  }
+
+
 `

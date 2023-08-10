@@ -40,8 +40,10 @@ export const GlobalStyle = createGlobalStyle`
       --gap: 10px;
       
       --gray-500: #1a1a1a;
-      --gray: #121212;
+      --gray-400: #242424;
       --gray-300: #a7a7a7;
+      --gray: #121212;
+     
       --black: #000000;
       --white: #ffffff;
     }
