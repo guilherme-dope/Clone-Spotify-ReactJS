@@ -17,8 +17,8 @@ const YourLibrary = () => {
             </header>
 
             <section>
-                <YourPlaylist  button={'Criar Playlist'} description={'E facil, vamos te ajudar'} title={'Crie sua primeira playlist'}/>
-                <YourPlaylist  button={'Browse Podcasts'} description={'We\'ll keep you updated on new episodes'} title={'Let\'s find some podcasts to follow'}/>
+                <YourPlaylist onClick={() => window.open('https://github.com/guilherme-dope/WebDev-ReactJS')} button={'Criar Playlist'} description={'E facil, vamos te ajudar'} title={'Crie sua primeira playlist'}/>
+                <YourPlaylist onClick={() => window.open('https://github.com/guilherme-dope/WebDev-ReactJS')} button={'Browse Podcasts'} description={'We\'ll keep you updated on new episodes'} title={'Let\'s find some podcasts to follow'}/>
             </section>
         </Container>
     );
