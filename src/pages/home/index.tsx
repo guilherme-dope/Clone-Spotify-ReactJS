@@ -71,6 +71,8 @@ function Home() {
                                 }
                                 title={"Travis Scott"}
                                 subtitle={"Travis is the best one!"}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -79,6 +81,8 @@ function Home() {
                                 }
                                 title={"Matue"}
                                 subtitle={"Venha paras as conexoes, de mafia!"}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -87,6 +91,8 @@ function Home() {
                                 }
                                 title={"Manoel Gomes"}
                                 subtitle={"The last brazilian sigma"}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -95,6 +101,8 @@ function Home() {
                                 }
                                 title={"Maquina do tempo"}
                                 subtitle={"Ela e tao linga rara e especial..."}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -103,6 +111,8 @@ function Home() {
                                 }
                                 title={"Como Tudo Deve Ser"}
                                 subtitle={"Eu não nasci ontem..."}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -111,6 +121,8 @@ function Home() {
                                 }
                                 title={"So os loucos sabem"}
                                 subtitle={"Agora eu sei..."}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -119,6 +131,8 @@ function Home() {
                                 }
                                 title={"Scar Tissue"}
                                 subtitle={"With the birds I'll share this lonely viewin'"}
+                                onClick={() => ({})
+                                }
                             />
                         </section>
                     </article>
@@ -136,14 +150,19 @@ function Home() {
                                 }
                                 title={"Daily Mix 1"}
                                 subtitle={"Drake, Travis, and more!"}
+                                onClick={() => ({})
+                                }
+
                             />
 
                             <Album
                                 image={
-                                    "https://seeded-session-images.scdn.co/v1/img/artist/4gzpq5DPGxSnKTe4SA8HAU/en"
+                                    "https://i.imgur.com/0ERe3BG.png"
                                 }
-                                title={"Coldplay Radio"}
-                                subtitle={"Olha se voce nao me ama"}
+                                title={"Clone Spotify"}
+                                subtitle={"Feito com amor e carinho"}
+                                onClick={() => window.open("https://flow.page/dope")
+                                }
                             />
 
                             <Album
@@ -152,6 +171,8 @@ function Home() {
                                 }
                                 title={"Daily Mix 2"}
                                 subtitle={"Now they always say congratulations"}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -160,6 +181,8 @@ function Home() {
                                 }
                                 title={"Daily Mix 3"}
                                 subtitle={"Pivete, eh sal!"}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -168,6 +191,8 @@ function Home() {
                                 }
                                 title={"Discover Weekly"}
                                 subtitle={"Your weekly mixtape of fresh music."}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -176,6 +201,8 @@ function Home() {
                                 }
                                 title={"I love my '90s Hip-Hop"}
                                 subtitle={"Golden era real rap."}
+                                onClick={() => ({})
+                                }
                             />
 
                             <Album
@@ -184,6 +211,8 @@ function Home() {
                                 }
                                 title={"Cachorrao do Brega"}
                                 subtitle={"This is Cachorrão."}
+                                onClick={() => ({})
+                                }
                             />
                         </section>
                     </article>

@@ -5,16 +5,17 @@ interface AlbumProps {
     image: string;
     title: string;
     subtitle: string;
+    onClick: () => void;
 }
 
-const Album = ({image, title, subtitle}: AlbumProps) => {
+const Album = ({image, title, subtitle, onClick,}: AlbumProps) => {
     return (
         <Container>
             <a href="">
                 {" "}
                 <BsFillPlayFill/>{" "}
             </a>
-            <img src={image} alt=""/>
+            <img onClick={onClick} src={image} alt=""/>
             <h3>{title}</h3>
             <p>{subtitle}</p>
         </Container>
