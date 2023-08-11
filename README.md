@@ -1,3 +1,5 @@
+# Clone Spotify
+Preview = [Visualizar projeto na Vercel](https://clone-spotify-g5g7ci37e-guilherme-dope.vercel.app/)
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
